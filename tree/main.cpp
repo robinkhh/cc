@@ -148,7 +148,8 @@ int countPreOrderStr=PreOrderStr.size();
        oldBitmap = SelectObject(hdcMem, hBitmap);
 
        GetObject(hBitmap, sizeof(bitmap), &bitmap);
-        int i = (PreOrderStr[num])-'1';
+
+        int i = (PreOrderStr[num])-'1';//char to int
        BitBlt(hdc, ball_xy[i].bx, ball_xy[i].by,
               bitmap.bmWidth, bitmap.bmHeight, hdcMem, 0, 0, SRCCOPY);
 

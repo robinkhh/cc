@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1464374384 source:c:\codeblocks\cc\tree\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1464374384 c:\codeblocks\cc\tree\resource.h
+
+1464375468 source:c:\codeblocks\cc\tree\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+	<string>
+	<iostream>
+
+1464610352 source:d:\codeblocks\cc\tree\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1464610352 d:\codeblocks\cc\tree\resource.h
+
+1464628898 source:d:\codeblocks\cc\tree\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+	<string>
+	<iostream>
+
+1464713040 source:d:\codeblocks\cc\bt\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+	<string>
+	<iostream>
+
+1464610352 d:\codeblocks\cc\bt\resource.h
+
+1464610352 source:d:\codeblocks\cc\bt\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
