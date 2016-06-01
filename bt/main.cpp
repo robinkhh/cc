@@ -132,8 +132,8 @@ BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
     hdc = BeginPaint(hwndDlg, &ps);
     hdcMem = CreateCompatibleDC(hdc);
-
-    for (num=0; num<256; num++){
+//assume ball number less than 30
+    for (num=0; num<30; num++){
 
         ball_str1+=(PreOrderStr[num]);
         ball_str1+=ball_str2;
